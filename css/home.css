@@ -1,0 +1,375 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+
+/* header with the text in video  */
+.header{
+    display: flex;
+    padding: 10px;  
+    position: relative;
+    z-index: 1;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    top : 0;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+}
+
+.caption{
+    display: flex;
+    z-index: 1;
+    position: relative;
+    margin-top: 185px;
+    margin-left: 400px;
+}
+
+.caption h1 {
+    color: white;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.logo{
+    margin-top: 80px;
+    margin-left: 50%;
+    height: 60px;
+}
+
+.navbar{
+    width: 100%;
+    align-items:center;
+    margin-top: 0px;
+    justify-content: space-between;
+}
+nav{
+    text-align: right;
+    margin-top: 100PX; /*TO PUT TEXT DOWN*/
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 60px;
+}
+nav ul li a{
+    border-radius:24px;
+    color:white;
+    font-size:1.4em;
+    font-weight:400;
+    padding:5px 1px; /*space between words*/
+    text-decoration:none;
+   /* word-spacing: 0.1;*/
+}
+nav ul li a.active {
+    background-color:#c33c3a;
+    color:#fff;
+  }
+nav ul li a:hover,header nav ul li a.activesmall {
+    color:#c33c3a;
+  }
+
+.section2 {
+    background-color: #fff;
+    width: 100%;
+}
+
+.text-image {
+    padding: 10%;
+    width: 50%;
+}
+
+.image-container {
+    width: 100%;
+    background-image: url("../assets/MountainImage.jpg");
+    background-position: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 10% 0 4%;
+}
+
+.text1 {
+    font-size: calc(30.66667px + 1.06667vw);
+    font-family: gt-sectra;
+    font-style: normal;
+}
+
+.text2 {
+    font-size: calc(20.66667px + 1.06667vw);
+    font-family: gotham;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.paragraph {
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'messina-sans', sans-serif;
+    color: #1f1f1f;
+    line-height: 1.9;
+    padding-bottom: 10%;
+    width: 80%;
+}
+
+.man-img {
+    width: 100%;
+    padding-top: 20%;
+}
+
+.ocean {
+    padding: 9% 0;
+    height: 10%;
+    width: 40%;
+    margin-right: 100px;
+}
+
+@media only screen and (max-width:1255px) {
+
+    .man-img {
+        width: 100%;
+    }
+
+    .paragraph {
+        font-size: 14px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:890px) {
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .text-image {
+        width: auto;
+    }
+
+    .paragraph {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .ocean {
+        padding: 9% 5%;
+    }
+}
+
+
+@media screen and (max-width: 500px) {}
+/* text and button section  */
+
+.above-slider{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 50px;
+    margin-left: 250px;
+    gap: 15cm;
+}
+.text-lines h1 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.button{
+    background-color: white;
+    border: 50px solid blac;
+    color : solid black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: teal;
+}
+
+/* Sliding-Images  */
+.slider {
+    margin-top: 100px;
+}
+.slider-images {
+    display: grid;
+    gap: 25px;
+    grid-auto-flow: column;
+    position: absolute;
+    overflow: hidden;
+    animation: scrolling 40s linear infinite;
+}
+
+@keyframes scrolling {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -100%;
+    }
+}
+/*slider images*/
+.slide-image{
+    height: 529px;
+    width: 460px;
+}
+
+.section-4 {
+    background-color: #f5f5f5;
+    padding-top: 80px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.section4-paragraph {
+    width: 50%;
+    font-size: 18px;
+    color: #666;
+}
+
+.sec4-image-div {
+    padding: 0 150px;
+}
+
+.a-section-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sec4-a-tag:hover {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: fit-content;
+    padding-bottom: 2px;
+}
+
+.sec4-div {
+    padding: 10px 30px 10px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-gray);
+}
+
+
+
+/*globe section*/
+.globe-section{
+    margin-top: 10cm;
+    padding-top: 10cm;
+    background-color: rgb(243,243,243);
+}
+.globe-text{
+    margin-left: 2cm;
+}
+.para2{
+    margin-top: 1cm;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin-right: 20cm;
+    line-height: 5vh;
+}
+.globe-image{
+    margin-top: 2cm;
+    position: relative;
+    object-fit: cover;
+}
+/*.globe-img{
+    margin-right: 300px;
+}*/
+.map-image{
+    position: absolute;
+    background-color: black;
+    height: 50%;
+    width: 50%;
+    z-index: 1;
+    right: 0%;
+    top: 15%;
+}
+.map{
+    position: absolute;
+    height: 55%;
+    width: 25%;
+    z-index: 1;
+    right: 5%;
+    top: 2%;
+}
+.caption-3{
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 6vh;
+
+}
+/* three image grid  */
+.grid-images {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.grid {
+    height: 649px;
+    width: 565px;
+    margin-top: 0px;
+}
+/*Footer Section*/
+*{
+    margin:0;
+    padding:0;
+  }
+  .logo{
+    margin-left: 5%;
+  }
+  .list-container{
+    list-style-type: none;
+  }
+  .container{
+    max-width: 1170px;
+    margin-left: 50%;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  u1{
+    list-style: none;
+  }
+  .footer{
+    background-color: #24262b;
+    padding: 10px 0;
+  }
+  .footer-col{
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: auto;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    display: block;
+    transition : all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+  }
+  
