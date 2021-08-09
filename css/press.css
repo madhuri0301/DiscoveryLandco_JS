@@ -1,0 +1,355 @@
+html {
+    min-height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+    width: 100%;
+  }
+  
+  body {
+    background-color:  rgb(243, 243, 243);
+  }
+  
+  .wrap {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1420px;
+    overflow: hidden;
+    padding: 0 50px;
+    position: relative;
+    width: 100%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* header section */
+  
+  header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../assets/Press/PressHeaderImage.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relatives;
+  }
+  
+  .caption {
+    display: flex;
+    z-index: 1;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 500px;
+  }
+  
+  .caption h1 {
+    color: white;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  header nav {
+    float: right;
+    margin-top: 110px;
+  }
+  
+  .logo {
+    margin-top: 110px;
+  }
+  
+  header nav ul li {
+    display: block;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  /*For buttons on header*/
+  
+  header nav ul li a {
+    border-radius: 24px;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 400;
+    padding: 10px 27px;
+    text-decoration: none;
+  }
+  
+  /*Colours will be red when you click on button*/
+  
+  header nav ul li a.active {
+    background-color: #c33c3a;
+    color: #fff;
+  }
+  
+  header nav ul li a:hover, header nav ul li a.activesmall {
+    color: #c33c3a;
+  }
+  
+  
+  .section-3 {
+    width: 100%;
+    background-color: rgb(243,243,243);
+    padding: 5% 0;
+    overflow: hidden;
+    height: 420%;
+  }
+  
+  .s3-container {
+    padding: 5% 0;
+  }
+  
+  
+  .section3-head {
+    color: #000;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40px;
+    font-weight: 200;
+  }
+  .section3-para {
+    font-family: 'Work Sans', sans-serif;
+    color: #1f1f1f;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 1.9;
+    padding-bottom: 10%;
+  }
+  
+  .sec-a {
+    color: #333333;
+    text-decoration: none;
+    border: 1px solid #444343;
+    padding: 5% 20%;
+  }
+  
+  .exp-image {
+    position: absolute;
+    z-index: 2;
+    object-fit: cover;
+    width: 78%;
+  }
+  
+  .top-content-1 {
+    position: absolute;
+    background-color: #fff;
+    z-index: 3;
+    width: 35%;
+    padding: 7% 6%;
+    margin-left: 55%;
+    margin-top: 10%;
+  }
+
+  .press-section1 {
+    background-image: url(../assets/press/pressbg.jpg);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.presection-5 {
+    background-color: white;
+    height : 150vh;
+    width  : 100vw;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50%;
+}
+#presscon {
+    height : 150vh;
+    width  : 100vw;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+#phead {
+    height : 10%;
+    width : 100%
+}
+
+.prow {
+    height : 40%;
+    width : 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.pele {
+    /* height : 100%;
+    width : 50%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.maintext {
+    width : 50%;
+    position: relative;
+    top : 50px;
+}
+.textmain {
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: x-large;
+    font-family: 'Work Sans', sans-serif;
+    color: #1f1f1f;
+    font-weight: 500;
+    /* letter-spacing: 0.5px; */
+    /* line-height: 1.9; */
+    padding-bottom: 10%;
+}
+
+.date {
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    /* position: relative; */
+    bottom : 80px;
+    right : 140px;
+    font-weight: 200;
+}
+
+.button {
+    /* position: relative; */
+    bottom : 150px;
+    border: 2px solid grey;
+    width : 25%;
+    height: 10%;
+    padding: 10px;
+    right: 130px;
+}
+
+.rarticle {
+    position: relative;
+    left: 35px;
+    top : 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+
+#carouselbuttons1 {
+    width : 24%;
+    height : 2%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 550px;
+    top : 30px;
+}
+
+#leftarrow1 {
+    fill : black;
+    position: relative;
+    left: 30px;
+ 
+}
+#rightarrow1 {
+    
+    transform: rotateZ(180deg);
+    position: relative;
+    left : 80px;
+}
+
+#leftarrow1,#rightarrow1 {
+    width: 30px;
+    height: 30px;
+   
+}
+
+#counter1 {
+    
+    height : 25px;
+    width : 25px;
+    position: relative;
+    left : 35px;
+    top : 2px;
+    display: flex;
+    flex-direction: column;
+}
+#c1 {
+    position: relative;
+    left : 10px;
+    bottom : 14px;
+    color: grey;
+    font-size: large;
+}
+
+#counterfixed1 {
+    position: relative;
+    left: 55px;
+    top : 5px; 
+    color: grey;
+    font-size: large; 
+}
+
+#headp {
+    font-family:  'Cormorant Garamond', serif;
+    font-size: xx-large;
+    position: relative;
+    left : 250px;
+    top : 70px;
+    font-weight: 300;
+    
+}
+
+  
+/*Footer Section*/
+*{
+    margin:0;
+    padding:0;
+  }
+  .logo{
+    margin-left: 5%;
+  }
+  .list-container{
+    list-style-type: none;
+  }
+  .container{
+    max-width: 1170px;
+    margin-left: 50%;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  u1{
+    list-style: none;
+  }
+  .footer{
+    background-color: #24262b;
+    padding: 10px 0;
+  }
+  .footer-col{
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: auto;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    display: block;
+    transition : all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+  }
+  
