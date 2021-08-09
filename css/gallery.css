@@ -1,0 +1,165 @@
+/* general settings */
+html {
+    min-height:100%;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    position:relative;
+    width:100%;
+  }
+  body {
+    background-color:black;
+  }
+  .wrap {
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    margin:0 auto;
+    max-width:1420px;
+    overflow:hidden;
+    padding:0 50px;
+    position:relative;
+    width:100%;
+  }
+  
+  /* header section */
+  header {
+    min-height: 65vh;
+    width: 100%;
+    background-image: url(../assets/galleryImage.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relatives;
+   }
+  header nav {
+    float:right;
+    margin-top: 110px;
+  }
+  .logo{
+    margin-top: 110px;
+  }
+  header nav ul li {
+    display:block;
+    float:left;
+    margin-right:20px;
+  }
+  /*For buttons on header*/
+  header nav ul li a {
+    border-radius:24px;
+    color:white;
+    font-size:1.4em;
+    font-weight:400;
+    padding:10px 27px;
+    text-decoration:none;
+  }
+  /*Colours will be red when you click on button*/
+  header nav ul li a.active {
+    background-color:#c33c3a;
+    color:#fff;
+  }
+  header nav ul li a:hover,header nav ul li a.activesmall {
+    color:#c33c3a;
+  }
+  
+  /*For Main Content*/
+  *{
+    margin : 0;
+    padding: 0;
+  }
+  /*To Put The Images In Row*/
+  .row-items1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .row-items2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  /*Settng image*/
+  .iitem{
+    width: 570px;
+    height: 300px;
+    margin: 0px;
+  }
+  /*Name Of The Place*/
+  .figcaption{
+    /* margin-left: 35%;  */
+    color: #fff;
+    font-family: gt-sectra;
+    margin-top: 1rem;
+    /* line-height: 6; */
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: x-large;
+  }
+  @media  (min-width:300px) and (max-width: 600px){
+    .iitem{
+      width: 100% !important;
+  
+    }
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+  body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+  }
+  /*Footer Section*/
+  *{
+    margin:0;
+    padding:0;
+  }
+  .logo{
+    margin-left: 5%;
+  }
+  .list-container{
+    list-style-type: none;
+  }
+  .container{
+    max-width: 1170px;
+    margin-left: 50%;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  u1{
+    list-style: none;
+  }
+  .footer{
+    background-color: #24262b;
+    padding: 10px 0;
+  }
+  .footer-col{
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: auto;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    display: block;
+    transition : all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+  }
+  
