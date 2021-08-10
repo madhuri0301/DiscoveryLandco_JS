@@ -1,0 +1,57 @@
+.footer {
+    background-color: black;
+    height: 500px;
+    clear: both;
+    width: 100%;
+    overflow: hidden
+}
+
+.footer-content {
+    flex-wrap: wrap;
+    padding: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+.logo2 {
+    align-self: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 10%;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+.content1 {
+    color: white;
+}
+
+.mail {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content2 {
+    color: white;
+}
+
+.content3 {
+    color: white;
+}
+
+@media only screen and (max-width: 360px) {
+    .content1 .content2 .content3 {
+        color: white;
+        font-size: 10px;
+        text-align: center;
+    }
+ 
+}
+@media screen and (max-width: 500px){
+.footer-content  {
+    flex-direction: column;
+ }
+ }

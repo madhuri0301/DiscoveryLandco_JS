@@ -230,7 +230,7 @@ html {
     text-align: center;
 }
 
-#carouselbuttons1 {
+/* #carouselbuttons1 {
     width : 24%;
     height : 2%;
     position: relative;
@@ -283,7 +283,7 @@ html {
     top : 5px; 
     color: grey;
     font-size: large; 
-}
+} */
 
 #headp {
     font-family:  'Cormorant Garamond', serif;
