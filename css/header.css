@@ -19,11 +19,12 @@ ul {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 70px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
     z-index: 1;
     opacity: 0.9;
-    margin-top: 100px
+    margin-top: 100px;
+    margin-left: 100px;
 }
 
 
@@ -50,7 +51,7 @@ header {
     flex-wrap: wrap;
     align-items: flex-end;
     padding: 0 1rem;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 body,
 html {
@@ -80,6 +81,7 @@ html {
     z-index: 1;
     font-size: 65px;
     margin-bottom: 0;
+    margin-left: 90px;
 }
 
 .tag-line {
@@ -139,7 +141,7 @@ html {
     flex-wrap: wrap;
     align-items: center;
     /* padding: 1.8rem 1rem; */
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     display: block;
     margin-top: 100px;
 }
@@ -166,8 +168,8 @@ html {
 }
 
 .img-tag {
-    width: 120px;
-    height: 30px;
+    width: 200px;
+    height: 60px;
 }
 
 @media only screen and (max-width: 500px) {

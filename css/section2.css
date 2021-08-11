@@ -1,0 +1,86 @@
+.section2 {
+    background-color: #fff;
+    width: 100%;
+}
+
+.text-image {
+    padding: 5%;
+    width: 50%;
+}
+
+.image-container {
+    width: 100%;
+    background-image: url("../assets/second-bckgrd.jpg");
+    background-position: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 6% 0 4%;
+}
+
+.text1 {
+    font-size: calc(30.66667px + 1.06667vw);
+    font-family: gt-sectra;
+    font-style: normal;
+}
+
+.text2 {
+    font-size: calc(20.66667px + 1.06667vw);
+    font-family: gotham;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.paragraph {
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'messina-sans', sans-serif;
+    color: #1f1f1f;
+    line-height: 1.9;
+    padding-bottom: 10%;
+    width: 80%;
+}
+
+.man-img {
+    width: 100%;
+}
+
+.ocean {
+    padding: 9% 0;
+}
+
+@media only screen and (max-width:1255px) {
+
+    .man-img {
+        width: 100%;
+    }
+
+    .paragraph {
+        font-size: 14px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:890px) {
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .text-image {
+        width: auto;
+    }
+
+    .paragraph {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .ocean {
+        padding: 9% 5%;
+    }
+}
+
+
+@media screen and (max-width: 500px) {}
