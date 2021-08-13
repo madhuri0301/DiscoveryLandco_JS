@@ -1,0 +1,55 @@
+@media screen and (max-width: 500px) {}
+/* text and button section  */
+
+.above-slider{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 20px;
+    margin-left: 250px;
+    gap: 15cm;
+}
+.text-lines h1 {
+    font-size: 50px;
+    font-family: "https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Cormorant+Garamond:wght@300&family=Manrope:wght@300&family=Montserrat:wght@300&family=PT+Sans&family=Poppins:wght@300&family=Work+Sans:wght@300&display";
+}
+.button{
+    background-color: white;
+    border: 50px solid blac;
+    color : solid black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: teal;
+}
+
+/* Sliding-Images  */
+.slider {
+    margin-top: 100px;
+}
+.slider-images {
+    display: grid;
+    gap: 25px;
+    grid-auto-flow: column;
+    position: absolute;
+    overflow: hidden;
+    animation: scrolling 40s linear infinite;
+}
+
+@keyframes scrolling {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -100%;
+    }
+}
+/*slider images*/
+.slide-image{
+    height: 529px;
+    width: 460px;
+}
